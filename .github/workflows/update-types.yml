@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '22'
-          cache: 'yarn'               # caches Yarn cache dir, not node_modules :contentReference[oaicite:1]{index=1}
+          cache: 'yarn'               # caches Yarn cache dir, not node_modules
           cache-dependency-path: '**/yarn.lock'
 
       # install all deps (including axios) in one go
@@ -52,7 +52,7 @@ jobs:
           path: "src/resources"
           author: "ValClientAction <valclient@action.com>"
           commit-message: "chore: update resources (skins, agents, chroma, sprays, buddies)"
-          update-pull-request-title-and-body: false  # don't overwrite the title/body on each update :contentReference[oaicite:2]{index=2}
+          update-pull-request-title-and-body: false  # don't overwrite the title/body on each update
 
       # commit any changes under src/types onto the same branch
       - name: Add types commit to PR
