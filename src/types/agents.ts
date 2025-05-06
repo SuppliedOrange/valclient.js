@@ -1,8 +1,12 @@
+/* eslint-disable prettier/prettier */
 /* FILE GENERATED AUTOMATICALLY */
 
 export type Agents =
+    | "Gekko"
     | "Fade"
     | "Breach"
+    | "Deadlock"
+    | "Tejo"
     | "Raze"
     | "Chamber"
     | "KAY/O"
@@ -10,12 +14,17 @@ export type Agents =
     | "Cypher"
     | "Sova"
     | "Killjoy"
+    | "Harbor"
+    | "Vyse"
     | "Viper"
     | "Phoenix"
     | "Astra"
     | "Brimstone"
+    | "Iso"
+    | "Clove"
     | "Neon"
     | "Yoru"
+    | "Waylay"
     | "Sage"
     | "Reyna"
     | "Omen"

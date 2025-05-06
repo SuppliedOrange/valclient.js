@@ -18,9 +18,11 @@ import {
     SpectreSkin,
     StingerSkin,
     VandalSkin,
+    OutlawSkin,
 } from "@type/skins";
 import { BuddyType } from "@type/buddies";
 import { SprayType } from "@type/sprays";
+
 export const guns = [
     "Odin",
     "Ares",
@@ -40,6 +42,7 @@ export const guns = [
     "Spectre",
     "Stinger",
     "Knife",
+    "Outlaw",
 ] as const;
 
 export type GunsType = typeof guns[number];
@@ -108,6 +111,7 @@ export type SkinsLevelsMapped = {
         | BulldogSkin
         | VandalSkin
         | AresSkin
+        | OutlawSkin
         | OdinSkin]: {
         [level in Levels]?: string;
     };
@@ -132,6 +136,7 @@ export type SkinsVariantsMapped = {
         | BulldogSkin
         | VandalSkin
         | AresSkin
+        | OutlawSkin
         | OdinSkin]: {
         [key: string]: string;
         Default: string;

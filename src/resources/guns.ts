@@ -19,4 +19,5 @@ export const gunsIdMappedByName: Record<GunsType, string> = {
     Spectre: "462080D1-4035-2937-7C09-27AA2A5C27A7",
     Stinger: "F7E1B454-4AD4-1063-EC0A-159E56B58941",
     Vandal: "9C82E19D-4575-0200-1A81-3EACF00CF872",
+    Outlaw: "5F0AAF7A-4289-3998-D5FF-EB9A5CF7EF5C",
 };
