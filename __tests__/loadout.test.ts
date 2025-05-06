@@ -442,8 +442,8 @@ test("change a skin buddy", async () => {
             {
                 ...mockedCurrentLoadout.Guns[1],
                 ID: gunsIdMappedByName["Guardian"],
-                CharmID: buddyIdMappedByName["2021 VCT Masters Winner Buddy"],
-                CharmLevelID: buddyLevelIdMappedByName["2021 VCT Masters Winner Buddy"]["1"],
+                CharmID: buddyIdMappedByName["VCT LOCK//IN Winner Buddy"],
+                CharmLevelID: buddyLevelIdMappedByName["VCT LOCK//IN Winner Buddy"]["1"],
                 CharmInstanceID: "id_instance",
             },
         ],
