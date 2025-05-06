@@ -1,55 +1,66 @@
-name: Update Skins,Agents,Buddies,Chroma and Sprays
+name: Update Valorant Resources
+
 on:
-    schedule:
-        - cron: "0 18 * * 2"
-    workflow_dispatch:
+  schedule:
+    # every Tuesday at 18:00 UTC
+    - cron: '0 18 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
-    update-types:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-              with:
-                  persist-credentials: false
+  update:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: valorant-resources-update
+      cancel-in-progress: true
 
-            - name: Cache node modules
-              uses: actions/cache@v2
-              id: cache-node-modules
-              env:
-                  cache-name: cache-node-modules
-              with:
-                  # npm cache files are stored in `~/.npm` on Linux/macOS
-                  path: "**/node_modules"
-                  key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-                  restore-keys: |
-                      ${{ runner.os }}-build-${{ env.cache-name }}-
-                      ${{ runner.os }}-build-
-                      ${{ runner.os }}-
+    steps:
+      # checkout with full history so rebasing the bot branch works
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
 
-            - name: Install Axios
-              if: steps.cache-node-modules.outputs.cache-hit != 'true' # Over here!
-              run: yarn add axios
+      # set up Node 22 and cache dependencies via Yarn
+      - name: "Setup Node.js"
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+          cache: 'yarn'               # caches Yarn cache dir, not node_modules :contentReference[oaicite:1]{index=1}
+          cache-dependency-path: '**/yarn.lock'
 
-            - name: Update Types
-              run: yarn update:types
+      # install all deps (including axios) in one go
+      - name: "Install dependencies"
+        run: yarn install --frozen-lockfile
 
-            - name: Pull-request with updates
-              uses: gr2m/create-or-update-pull-request-action@v1
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                  title: "Updated Skins, Agents, Chroma, Sprays and Buddies"
-                  body: "Workflow made to automatically update skins, agents, buddies and sprays."
-                  branch: "bot/update_valorant_resources"
-                  path: "src/resources"
-                  author: "ValClientAction <valclient@action.com>"
-                  commit-message: "chore: updated resources (skins,agents,sprays,buddies)"
-                  update-pull-request-title-and-body: false
-            - name: Add commit for types in pull-request
-              uses: gr2m/create-or-update-pull-request-action@v1
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                  branch: "bot/update_valorant_resources"
-                  path: "src/types"
-                  author: "ValClientAction <valclient@action.com>"
-                  commit-message: "chore: updated types (skins,agents,sprays,buddies)"
+      # run your type-generation/update script
+      - name: Update Types
+        run: yarn update:types
+
+      # commit any changes under src/resources
+      - name: "Create or update Pull Request: resources"
+        uses: gr2m/create-or-update-pull-request-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: "chore: update Valorant resources"
+          body: |
+            This automated PR updates Valorant skins, agents, chroma, sprays, and buddies.
+          branch: "bot/update_valorant_resources"
+          path: "src/resources"
+          author: "ValClientAction <valclient@action.com>"
+          commit-message: "chore: update resources (skins, agents, chroma, sprays, buddies)"
+          update-pull-request-title-and-body: false  # don't overwrite the title/body on each update :contentReference[oaicite:2]{index=2}
+
+      # commit any changes under src/types onto the same branch
+      - name: Add types commit to PR
+        uses: gr2m/create-or-update-pull-request-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: "bot/update_valorant_resources"
+          path: "src/types"
+          author: "ValClientAction <valclient@action.com>"
+          commit-message: "chore: update types (skins, agents, chroma, sprays, buddies)"
