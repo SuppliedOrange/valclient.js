@@ -12,16 +12,33 @@ export const queues: Array<Queues> = [
     "unrated",
     "onefa",
     "null",
+    "hurm",
+    "swiftplay",
+    "newmap",
+    "premier-scrim",
+    "premier-seasonmatch",
+    "premier-weeklypatient",
+    "premier-tournament",
 ];
 
 export const customMappedMaps: Record<Maps, CustomGameMapsName> = {
     Breeze: "Foxtrot/Foxtrot",
     Icebox: "Port/Port",
-    Heaven: "Triad/Triad",
+    Haven: "Triad/Triad",
     Ascent: "Ascent/Ascent",
     Bind: "Bonsai/Bonsai",
     Fracture: "Canyon/Canyon",
     Split: "Duality/Duality",
+    Lotus: "Jam/Jam",
+    Pearl: "Pitt/Pitt",
+    Sunset: "Juliett/Juliett",
+    Abyss: "Infinity/Infinity",
+    Glitch: "HURM_HighTide/HURM_HighTide",
+    Range: "Poveglia/Poveglia",
+    Piazza: "HURM_Yard/HURM_Yard",
+    District: "HURM_Alley/HURM_Alley",
+    Drift: "HURM_Helix/HURM_Helix",
+    Kasbah: "HURM_Bowl/HURM_Bowl",
 };
 
 export const customGameModeMapped: Record<GameModes, CustomGameModes> = {
@@ -29,6 +46,9 @@ export const customGameModeMapped: Record<GameModes, CustomGameModes> = {
     Deathmatch: "Deathmatch/DeathmatchGameMode.DeathmatchGameMode_C",
     OneForAll: "OneForAll/OneForAll_GameMode.OneForAll_GameMode_C",
     QuickBomb: "QuickBomb/QuickBombGameMode.QuickBombGameMode_C",
+    GunGameTeams: "GunGameTeams/GunGameTeamsGameMode.GunGameTeamsGameMode_C",
+    TeamDeathmatch: "TeamDeathmatch/HURMGameMode.HURMGameMode_C",
+    Swiftplay: "Swiftplay/Swiftplay_EoRCredits_GameMode.Swiftplay_EoRCredits_GameMode_C",
 };
 
 export type WalletCurrencies = "valorant_points" | "radianite_points" | "unknown";
