@@ -86,7 +86,7 @@ const mockedCurrentGroupDetails: GroupDetails = {
 
 const mockedCurrentAvailableGameModes: CurrentAvailableGameModeResponse = {
     Enabled: true,
-    EnabledMaps: ["Ascent", "Bind", "Breeze", "Fracture", "Heaven", "Icebox", "Split"],
+    EnabledMaps: ["Ascent", "Bind", "Breeze", "Fracture", "Haven", "Icebox", "Split"],
     EnabledModes: ["test"],
     GamePodPingServiceInfo: {
         ping: {
