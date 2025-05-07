@@ -16,7 +16,8 @@ export type CustomGameMapsName =
     | "Infinity/Infinity"
     | "Jam/Jam"
     | "Juliett/Juliett"
-    | "Poveglia/Poveglia"
+    | "Poveglia/Range"
+    | "PovegliaV2/RangeV2"
     | "Pitt/Pitt";
 
 export type CustomGameModes =
@@ -44,7 +45,8 @@ export type Maps =
     | "Drift"
     | "Kasbah"
     | "Piazza"
-    | "Range"
+    | "The Range"
+    | "The Range (V2)"
     | "Glitch";
 
 export type GameModes =

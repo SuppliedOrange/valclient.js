@@ -34,11 +34,12 @@ export const customMappedMaps: Record<Maps, CustomGameMapsName> = {
     Sunset: "Juliett/Juliett",
     Abyss: "Infinity/Infinity",
     Glitch: "HURM_HighTide/HURM_HighTide",
-    Range: "Poveglia/Poveglia",
     Piazza: "HURM_Yard/HURM_Yard",
     District: "HURM_Alley/HURM_Alley",
     Drift: "HURM_Helix/HURM_Helix",
     Kasbah: "HURM_Bowl/HURM_Bowl",
+    "The Range": "Poveglia/Range",
+    "The Range (V2)": "PovegliaV2/RangeV2",
 };
 
 export const customGameModeMapped: Record<GameModes, CustomGameModes> = {
