@@ -47,8 +47,11 @@ export const customGameModeMapped: Record<GameModes, CustomGameModes> = {
     Deathmatch: "Deathmatch/DeathmatchGameMode.DeathmatchGameMode_C",
     OneForAll: "OneForAll/OneForAll_GameMode.OneForAll_GameMode_C",
     QuickBomb: "QuickBomb/QuickBombGameMode.QuickBombGameMode_C",
-    GunGameTeams: "GunGameTeams/GunGameTeamsGameMode.GunGameTeamsGameMode_C",
-    TeamDeathmatch: "TeamDeathmatch/HURMGameMode.HURMGameMode_C",
+    GunGameTeams: "GunGame/GunGameTeamsGameMode.GunGameTeamsGameMode_C",
+    HURM: "HURM/HURMGameMode.HURMGameMode_C",
+    NewPlayerExperience: "NewPlayerExperience/NPEGameMode.NPEGameMode_C",
+    ShootingRange: "ShootingRange/ShootingRangeGameMode.ShootingRangeGameMode_C",
+    SnowballFight: "SnowballFight/SnowballFightGameMode.SnowballFightGameMode_C",
     Swiftplay: "Swiftplay/Swiftplay_EoRCredits_GameMode.Swiftplay_EoRCredits_GameMode_C",
 };
 

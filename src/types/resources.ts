@@ -25,9 +25,12 @@ export type CustomGameModes =
     | "Deathmatch/DeathmatchGameMode.DeathmatchGameMode_C"
     | "OneForAll/OneForAll_GameMode.OneForAll_GameMode_C"
     | "QuickBomb/QuickBombGameMode.QuickBombGameMode_C"
-    | "GunGameTeams/GunGameTeamsGameMode.GunGameTeamsGameMode_C"
-    | "TeamDeathmatch/HURMGameMode.HURMGameMode_C"
-    | "Swiftplay/Swiftplay_EoRCredits_GameMode.Swiftplay_EoRCredits_GameMode_C";
+    | "GunGame/GunGameTeamsGameMode.GunGameTeamsGameMode_C"
+    | "HURM/HURMGameMode.HURMGameMode_C"
+    | "NewPlayerExperience/NPEGameMode.NPEGameMode_C"
+    | "Swiftplay/Swiftplay_EoRCredits_GameMode.Swiftplay_EoRCredits_GameMode_C" // Is this correct?
+    | "ShootingRange/ShootingRangeGameMode.ShootingRangeGameMode_C"
+    | "SnowballFight/SnowballFightGameMode.SnowballFightGameMode_C";
 
 export type Maps =
     | "Breeze"
@@ -55,7 +58,10 @@ export type GameModes =
     | "OneForAll"
     | "QuickBomb"
     | "GunGameTeams"
-    | "TeamDeathmatch"
+    | "HURM"
+    | "NewPlayerExperience"
+    | "ShootingRange"
+    | "SnowballFight"
     | "Swiftplay";
 
 export type Locale =
