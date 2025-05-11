@@ -1,6 +1,7 @@
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosStatic } from "axios";
 import { readFileSync } from "fs";
 import https from "https";
+import path from "path";
 
 import { HttpService } from "@app/http";
 import Auth from "@app/auth";
@@ -14,6 +15,7 @@ import { regions, regionShardOverride, shardRegionOverride } from "@resources";
 /** Errors */
 import { ValorantNotRunning } from "@errors/valorantNotRunning";
 import { SystemNotSupported } from "@errors/systemNotSupported";
+import { RegionDetectionFailed } from "@errors/regionDetectionFailed";
 
 /** Interfaces */
 import { EntitlementsTokenLocal, IPlayer } from "@interfaces/player";
@@ -107,8 +109,8 @@ class ValClient implements IValClient {
     /**
      * Start client
      */
-    public async init({ region, auth }: ClientConfig): Promise<void> {
-        this._region = region;
+    public async init({ region, auth }: ClientConfig = {}): Promise<void> {
+        this._region = (region ?? (await this._autoDetectRegion())) as Regions;
         this._shard = this._region;
 
         if (regionShardOverride[this._region.toLowerCase()]) {
@@ -276,6 +278,55 @@ class ValClient implements IValClient {
         } = await this.valorant_api.get("/version");
 
         this._client_version = `${branch}-shipping-${buildVersion}-${version.split(".")[3]}`;
+    }
+
+    private _findShooterGameLog(): string {
+        return path.join(process.env.LOCALAPPDATA, "VALORANT", "Saved", "Logs", "ShooterGame.log");
+    }
+
+    private async _autoDetectRegion(): Promise<string> {
+        let logContent: Buffer;
+
+        try {
+            const logPath = this._findShooterGameLog();
+            logContent = readFileSync(logPath, { encoding: null });
+        } catch (error) {
+            throw new RegionDetectionFailed();
+        }
+
+        try {
+            const lines = logContent.toString().split("\n");
+
+            let detectedRegion: string = null;
+
+            // Region finder Test 1
+            if (!detectedRegion) {
+                for (const line of lines) {
+                    if (line.includes("regions/")) {
+                        detectedRegion = line.split("regions/")[1].split("]")[0];
+                        break;
+                    }
+                }
+            }
+
+            // Region finder Test 2
+            if (!detectedRegion) {
+                for (const line of lines) {
+                    if (line.includes("config/")) {
+                        detectedRegion = line.split("config/")[1].split("]")[0];
+                        break;
+                    }
+                }
+            }
+
+            if (detectedRegion) {
+                return detectedRegion.toLowerCase() as Regions;
+            } else {
+                throw new RegionDetectionFailed();
+            }
+        } catch (error) {
+            throw new RegionDetectionFailed();
+        }
     }
 
     /**

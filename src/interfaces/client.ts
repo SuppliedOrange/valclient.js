@@ -44,7 +44,7 @@ export interface LockFileType {
 }
 
 export interface ClientConfig {
-    region: Regions;
+    region?: Regions;
     auth?: AuthInput;
 }
 
