@@ -1145,6 +1145,7 @@ export const skinsIdMappedByGunName: SkinsIdMappedByGunName = {
     "VCT 2025 Karambit": "8cd5adfe-4a12-ac61-28a6-1a856d2fdd05",
     "Solarex Relic": "10d326ae-4957-f954-1644-6790c4faa8a5",
     "Kaimana": "ce1a391f-4819-dc71-8a23-0e95b0b79aef",
+    "5 Years // Beta Remastered Knife": "a8250e8b-4176-e056-af5a-80b47e4b4e31",
     "Ignite Fan": "1cd09fbd-43cb-a5f6-90fa-08994342d747",
     "Winterwunderland Candy Cane": "e49c0fd2-435c-2c41-9164-4996080f455b",
     "Storm Maw Axe": "ee01d99d-4392-a37e-2096-7bbe2681bcda"
@@ -5498,6 +5499,10 @@ export const skinsLevelMappedByName: SkinsLevelsMapped = {
   },
   "Kaimana": {
     "Level 1": "9757d458-4062-5132-693c-868e52530a6e"
+  },
+  "5 Years // Beta Remastered Knife": {
+    "Level 1": "df83977a-4827-6fc0-cc6f-8eae0d11e800",
+    "Level 2": "f2499a59-4bb9-cb29-3462-1687a95d6508"
   },
   "Ignite Fan": {
     "Level 1": "445de3d7-4833-5bf7-ef75-aeb4a0212229",
@@ -10061,6 +10066,12 @@ export const skinsChromasMappedByName: SkinsVariantsMapped = {
   "Kaimana": {
     "Default": "20afc6a1-4db1-3684-f9af-9eadba93ff1b",
     "DeepSea": "006e78e6-453e-9476-4d4c-eab014278708"
+  },
+  "5 Years // Beta Remastered Knife": {
+    "Default": "fcb2bc0a-4b21-c592-f148-b2983cfc08a9",
+    "Red": "232813ad-4041-1a1d-ddb8-7ab96387246c",
+    "Purple": "2f3c8125-4e2e-9ce1-c177-708a5510e43b",
+    "Blue": "c8aff5c6-4a76-a1c1-752e-afb086de7cd9"
   },
   "Ignite Fan": {
     "Default": "dbf9de3d-4cb7-4dc3-1ed1-94bddd1d07f0",

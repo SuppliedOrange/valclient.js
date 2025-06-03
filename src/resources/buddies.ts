@@ -139,7 +139,6 @@ export const buddyIdMappedByName: BuddyIdMappedByName = {
   "Divine Swine Buddy": "e643ce87-4d21-e8ae-4fd4-f4870eea33c7",
   "Doom Wing Buddy": "ad5a4a0a-4a9e-c61f-d789-04b416bab22d",
   "Potted Pal Buddy": "0baed110-4723-10bb-aba5-1d90b8a24d09",
-  "Doombringer Buddy": "b20363fa-4470-b0e8-6ba9-7897a399a7cf",
   "Glitchpop Buddy": "c5bee9f1-4548-03c3-f88d-d7bf38d1943e",
   "Glitchpop, EP 2 Buddy": "faca42f0-47d9-0fcb-116f-9e9b37060bd1",
   "Champions 2022 Dad Hat Buddy": "9a6231c0-41e5-c42d-9745-cc9010877fdc",
@@ -666,6 +665,7 @@ export const buddyIdMappedByName: BuddyIdMappedByName = {
   "VCT x NS Buddy": "b1404dee-4fbe-9daa-f545-71ab361df4b2",
   "VCT x XLG Buddy": "7a311d96-47fe-692f-ee50-53b78357d9fa",
   "Duo's Day Buddy": "27842e23-4db9-c633-928a-a183d0b00ea0",
+  "5 Years // Beta Remastered Buddy": "3cbaee5a-42d9-9ba4-062c-aab1c3f05ef0",
   "5 Years Buddy": "1cb1cfef-4976-ad93-27bc-7a89b5e6fb2f",
   "The Wheel of Steel Buddy": "86bbce95-4b76-c933-9939-9aa0f0f2c169",
   "Soul Capsule Buddy": "c4f69de5-4440-19b5-8953-36b12ba42bb0",
@@ -681,7 +681,8 @@ export const buddyIdMappedByName: BuddyIdMappedByName = {
   "Convergence Buddy": "d13d919a-41e4-28eb-984d-afa4a5a0f505",
   "PlayZilla Trick Master Buddy": "11b2689f-4955-82b6-0207-2d8f40978c39",
   "Dimensional Drip Buddy": "2020356c-4061-7736-053d-90963f8e3caf",
-  "Zoomer Pop Buddy": "4bfcc79c-4352-aa06-53de-259530012e45"
+  "Zoomer Pop Buddy": "4bfcc79c-4352-aa06-53de-259530012e45",
+  "Doombringer Buddy": "b20363fa-4470-b0e8-6ba9-7897a399a7cf"
 };
 
 export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
@@ -1086,9 +1087,6 @@ export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
   },
   "Potted Pal Buddy": {
     "1": "9273af2c-456b-39dd-7529-43af3e4132ca"
-  },
-  "Doombringer Buddy": {
-    "1": "f3160ab8-4087-cdb8-ec63-ac9c5c9e6270"
   },
   "Glitchpop Buddy": {
     "1": "e6eee5ec-4f6f-e764-1c4d-048ce271be27"
@@ -2668,6 +2666,9 @@ export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
   "Duo's Day Buddy": {
     "1": "04c5b7dd-40a2-643e-b34f-3e88a533ea4e"
   },
+  "5 Years // Beta Remastered Buddy": {
+    "1": "8adfc33d-43f3-24d2-9ad7-4ab1ac9a1e36"
+  },
   "5 Years Buddy": {
     "1": "957ad348-4ff7-a8c7-6e8a-73887257d244"
   },
@@ -2715,5 +2716,8 @@ export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
   },
   "Zoomer Pop Buddy": {
     "1": "a20cf772-4d6a-d3c8-7e60-72bab4446f2f"
+  },
+  "Doombringer Buddy": {
+    "1": "f3160ab8-4087-cdb8-ec63-ac9c5c9e6270"
   }
 };

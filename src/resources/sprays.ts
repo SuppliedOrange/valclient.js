@@ -734,6 +734,7 @@ export const sprayIdMappedByName: SprayIdMappedByName = {
   "VCT x NS Spray": "ec7dd200-4d1a-21e5-6378-2ea31ae2b555",
   "VCT x XLG Spray": "83374b92-49ef-5138-95f0-10a34b6b0077",
   "5 Years Spray": "d6646372-4fb8-bd2d-9f62-b4a9cb8e0799",
+  "5 Years // Beta Remastered Spray": "dd97bf4a-4eb4-b825-98e3-03b5390a64f3",
   "Reyna Spray": "0c342c8c-492e-e20e-cf06-c694ec4a386f",
   "Leer Spray": "87b81520-4eaa-0536-4c45-babd5a35a15b",
   "Marked for Death Spray": "bb6fd4d0-4ba1-68a1-a1e2-d6b1a33d6b9d",
@@ -2934,6 +2935,9 @@ export const sprayLevelIdMappedByName: SprayLevelIdMappedByName = {
   },
   "5 Years Spray": {
     "1": "02c4f24e-489b-d5ec-587b-7c92cb01e81b"
+  },
+  "5 Years // Beta Remastered Spray": {
+    "1": "be29cd69-4416-062c-cd04-e890ad21f845"
   },
   "Reyna Spray": {
     "1": "d04d33f8-48cf-112f-f6aa-62aea1f7fb27"
