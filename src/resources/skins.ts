@@ -226,6 +226,7 @@ export const skinsIdMappedByGunName: SkinsIdMappedByGunName = {
     "RGX 11z Pro Phantom": "499acf05-4f79-e345-3714-57bf7aa163ea",
     "Xenohunter Phantom": "fac0cea1-45a9-1549-c120-af8f0150e562",
     "VALORANT GO! Vol. 1 Phantom": "0acbabbe-4f4c-f643-284b-f69029abb54e",
+    "VALORANT GO! Vol. 3 Phantom": "bf797f24-4ec0-a18a-e592-01b48ff77736",
     "Araxys Phantom": "1cb0bdf7-46e1-92d5-b400-988c99f25d81",
     "Neptune Phantom": "516ff0cb-4d4b-bf0e-d460-92b3c8d27259",
     "Radiant Entertainment System Phantom": "4eb45d71-4fa4-be4f-7409-cf92123f1d22",
@@ -600,6 +601,7 @@ export const skinsIdMappedByGunName: SkinsIdMappedByGunName = {
     "Fiber Optic Ghost": "86564070-4e0e-fae7-1c2c-e28f044076d6",
     "Frequency Ghost": "53a99777-4d4b-8380-5eed-d1a43793aeb1",
     "VALORANT GO! Vol. 1 Ghost": "3714831b-4b90-bb6b-4185-7fb05ba9b9a2",
+    "VALORANT GO! Vol. 3 Ghost": "2e8d2911-4e9a-34fe-f5bd-ae80d2a4d380",
     "Radiant Entertainment System Ghost": "9ad4308f-4ffb-03a8-25c3-7a80b60579de",
     "Gaia's Vengeance Ghost": "daed0e44-4ab6-22b4-a5a5-57a4957a056b",
     "Celestia Ghost": "f32de4c8-472f-9b3e-cd8d-d2b3193c01a7",
@@ -859,6 +861,7 @@ export const skinsIdMappedByGunName: SkinsIdMappedByGunName = {
   "Marshal": {
     "Task Force 809 Marshal": "774dee9a-4809-0e4d-4153-a883e908d4b2",
     "Fiber Optic Marshal": "95be56c3-4b3e-cc81-5fd6-b1af30448074",
+    "VALORANT GO! Vol. 3 Marshal": "0c549876-44f3-9a07-bd53-31ab196c4c41",
     "Gaia's Vengeance Marshal": "fc802ceb-4a39-39ac-adf5-02a812be2f8e",
     "Composite Marshal": "8a5b92e4-4147-0d85-5e2c-d6a179645bec",
     "Rune Stone Marshal": "db3bf2d9-449e-cd8a-950e-018ca893d404",
@@ -905,6 +908,7 @@ export const skinsIdMappedByGunName: SkinsIdMappedByGunName = {
     "RGX 11z Pro Spectre": "4f0c9544-469c-0c62-df2e-95b15d6f2333",
     "Intergrade Spectre": "646b7e79-4164-598c-56d1-c991d74ce695",
     "VALORANT GO! Vol. 1 Spectre": "89b78398-4c56-6371-cad7-8eb78ee3f550",
+    "VALORANT GO! Vol. 3 Spectre": "5d5f4ea6-4463-531c-2165-aebb4057646b",
     "Neptune Spectre": "55153919-4598-cb0f-4759-7ea546c6d121",
     "Celestia Spectre": "936470c5-4d1d-3cba-ef05-4a92b95b75d9",
     "Bolt Spectre": "14373997-4f2f-ebe2-3547-e893d8750459",
@@ -1016,6 +1020,7 @@ export const skinsIdMappedByGunName: SkinsIdMappedByGunName = {
     "Intergrade Blade": "050aa35d-41b7-241c-d0b5-23b53ab0769a",
     "VALORANT GO! Vol. 1 Knife": "9103fdf7-4361-5ac5-37ae-7cb51f13f45d",
     "Yoru's Stylish Butterfly Comb": "d034911c-45a6-1ce4-e6f5-4cbe57e9d4f1",
+    "VALORANT GO! Vol. 3 Dagger": "320e6e52-4f31-1857-b759-82903334d97e",
     "Divergence Staff": "a516af9d-4f3d-ac79-2204-329f732aa378",
     "Araxys Bio Harvester": "a486efac-4415-1bfa-68d1-19bca9968101",
     "Araxys Bio-Atomizers": "3cc0aac5-45ff-e648-80f2-b9932ddf8bed",
@@ -1988,6 +1993,9 @@ export const skinsLevelMappedByName: SkinsLevelsMapped = {
   },
   "VALORANT GO! Vol. 1 Phantom": {
     "Level 1": "30423af3-42f9-d0ba-dee5-0b93704b39c8"
+  },
+  "VALORANT GO! Vol. 3 Phantom": {
+    "Level 1": "e4051ef8-4dfd-953b-e0d6-43b47723a918"
   },
   "Araxys Phantom": {
     "Level 1": "60fc4e39-4af2-328b-2a1f-59834681dd57",
@@ -3470,6 +3478,9 @@ export const skinsLevelMappedByName: SkinsLevelsMapped = {
   "VALORANT GO! Vol. 1 Ghost": {
     "Level 1": "2dd042e4-409e-c8ed-ec76-758529e49d99"
   },
+  "VALORANT GO! Vol. 3 Ghost": {
+    "Level 1": "61324c6c-4d7f-8318-1c81-9d9d3869c808"
+  },
   "Radiant Entertainment System Ghost": {
     "Level 1": "b0c41f3b-4fa8-3768-4436-a29fbef94a68",
     "Level 2": "77fc5eb2-40c4-0094-131a-5a803799cb9d",
@@ -4478,6 +4489,9 @@ export const skinsLevelMappedByName: SkinsLevelsMapped = {
   "Fiber Optic Marshal": {
     "Level 1": "6e702033-44ef-e44e-b205-25823994eaae"
   },
+  "VALORANT GO! Vol. 3 Marshal": {
+    "Level 1": "77b5a92d-4175-84af-cd68-54ac86115bc6"
+  },
   "Gaia's Vengeance Marshal": {
     "Level 1": "6046ca8f-4100-4b1a-7e8d-5e8c6625342f",
     "Level 2": "33d1d8ec-48fc-a601-8184-ec8249e76760",
@@ -4634,6 +4648,9 @@ export const skinsLevelMappedByName: SkinsLevelsMapped = {
   },
   "VALORANT GO! Vol. 1 Spectre": {
     "Level 1": "291cb44a-410d-b035-4d0b-608a92c2cd91"
+  },
+  "VALORANT GO! Vol. 3 Spectre": {
+    "Level 1": "691df430-411a-c76d-fb50-7d97bc6805ed"
   },
   "Neptune Spectre": {
     "Level 1": "ef773863-472d-4d81-e50e-1d887cea40f4",
@@ -5036,6 +5053,9 @@ export const skinsLevelMappedByName: SkinsLevelsMapped = {
   "Yoru's Stylish Butterfly Comb": {
     "Level 1": "ec70c8c8-48db-b2dc-ab7d-1d9410b0cfbf",
     "Level 2": "da00cdf4-474d-960b-a011-f29d27403ff0"
+  },
+  "VALORANT GO! Vol. 3 Dagger": {
+    "Level 1": "baf4cf84-4a7d-a2b2-d2eb-aa8fc5ee1441"
   },
   "Divergence Staff": {
     "Level 1": "20755741-411f-3ac7-a092-afbff603712b",
@@ -6400,6 +6420,9 @@ export const skinsChromasMappedByName: SkinsVariantsMapped = {
   },
   "VALORANT GO! Vol. 1 Phantom": {
     "Default": "5802270a-45f9-737e-c5d0-e7a16957a3ca"
+  },
+  "VALORANT GO! Vol. 3 Phantom": {
+    "Default": "d09406f8-4d49-8e12-1ddc-62967d3929ac"
   },
   "Araxys Phantom": {
     "Default": "38655ca2-49a3-1b90-a555-62bbacb09ffa",
@@ -7778,6 +7801,9 @@ export const skinsChromasMappedByName: SkinsVariantsMapped = {
   "VALORANT GO! Vol. 1 Ghost": {
     "Default": "5e51e03e-4c60-3d76-83c0-6eb3d98405ec"
   },
+  "VALORANT GO! Vol. 3 Ghost": {
+    "Default": "0b9de2ed-401f-73b2-f205-e59c16de8e62"
+  },
   "Radiant Entertainment System Ghost": {
     "Default": "04c7e366-4563-be98-e870-66889e4f5dc4",
     "DanceFever": "2d230b9a-4fa1-4fd7-6685-0eaa122d37f5",
@@ -8888,6 +8914,9 @@ export const skinsChromasMappedByName: SkinsVariantsMapped = {
     "Gold": "20d3a90a-46c3-3628-a2d2-e38237846101",
     "Emerald": "9b042e3c-435c-fe1e-1861-6daaecde0e2b"
   },
+  "VALORANT GO! Vol. 3 Marshal": {
+    "Default": "10c4c426-4f10-33d7-c7ec-489899939b08"
+  },
   "Gaia's Vengeance Marshal": {
     "Default": "b2883421-4cb0-7488-1da4-d7b5e3c349e7",
     "Blue": "7bf9393e-448d-21ea-7819-d8a9c8128cb1",
@@ -9054,6 +9083,9 @@ export const skinsChromasMappedByName: SkinsVariantsMapped = {
   },
   "VALORANT GO! Vol. 1 Spectre": {
     "Default": "09d52346-42ba-8832-5981-c98db65774b8"
+  },
+  "VALORANT GO! Vol. 3 Spectre": {
+    "Default": "7a01db88-40f5-e122-7391-1bbf3595f284"
   },
   "Neptune Spectre": {
     "Default": "b237dd0e-485e-c438-03f0-9ea6b12dc13d",
@@ -9511,6 +9543,9 @@ export const skinsChromasMappedByName: SkinsVariantsMapped = {
   },
   "Yoru's Stylish Butterfly Comb": {
     "Default": "d3f2119f-4853-e136-c807-e197b6a9c92e"
+  },
+  "VALORANT GO! Vol. 3 Dagger": {
+    "Default": "04de24a6-446f-f190-6ca7-02a26f9daa15"
   },
   "Divergence Staff": {
     "Default": "5183570c-4c8d-7b5d-00c3-a0ae04518da6",

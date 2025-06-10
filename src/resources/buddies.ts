@@ -70,14 +70,19 @@ export const buddyIdMappedByName: BuddyIdMappedByName = {
   "Cat-Eye Buddy": "59fd71a3-4c6f-30e8-bff3-cd81fe316718",
   "Claw Tactics: Dan Buddy ": "158c6cf9-4d46-7ba4-12a8-2cb957330994",
   "Champions 2024 Buddy": "b68c400c-454c-af07-be15-b6a1a91812a8",
+  "VALORANT GO! Vol. 3 Chamber Buddy": "cd30a144-4b8b-e9b4-30e8-32a121b1d98d",
   "VALORANT GO! Vol. 1 Cypher Buddy": "c8259af3-4720-5312-0ba1-f7b65ee39834",
+  "VALORANT GO! Vol. 3 Gekko Buddy": "f4b54672-42c1-ef54-0474-b29291aa0846",
+  "VALORANT GO! Vol. 3 Iso Buddy": "4e7ecb70-4856-6b61-ed36-1e832c995c2d",
   "VALORANT GO! Vol. 1 Jett Buddy": "c5cdbaa1-4518-22ea-2e35-2aa3ad55ce9f",
   "VALORANT GO! Vol. 1 Killjoy Buddy": "8e7b95e3-42d2-1b29-af2e-749c4ea24aa9",
+  "VALORANT GO! Vol. 3 Omen Buddy": "cc7c9cab-4ebe-e057-456d-93bc43a83989",
   "VALORANT GO! Vol. 2 Phoenix Buddy": "92abc229-4f98-fa7f-b98d-36b902ea68d0",
   "VALORANT GO! Vol. 2 Raze Buddy": "eb6133bb-4896-5f64-85a9-c0bccedd07bd",
   "VALORANT GO! Vol. 1 Reyna Buddy": "f1c7487e-4f9a-42d4-8704-0597d7146c26",
   "VALORANT GO! Vol. 1 Sage Buddy": "919e0b68-4ac0-3ab4-0b1d-80b58103c844",
   "VALORANT GO! Vol. 2 Sova Buddy": "dd2095b0-44e5-92ad-b1cc-b9ad44c29f28",
+  "VALORANT GO! Vol. 3 Tejo Buddy": "7a145ba0-4d0f-72ca-5249-c38b54f6b51a",
   "VALORANT GO! Vol. 2 Viper Buddy": "1f242181-4a1d-1ea0-53f1-77ace29f6bf6",
   "VALORANT GO! Vol. 2 Yoru Buddy": "744457bf-4b96-62ea-934b-ee888267a23f",
   "Winner Winner Buddy": "6398ce51-493f-ca74-3a80-2a9a66274613",
@@ -410,6 +415,12 @@ export const buddyIdMappedByName: BuddyIdMappedByName = {
   "PREMIER V25A2 CHAMPION // INT Buddy": "7703c9cf-475e-c139-a8a3-b0acbc2889ec",
   "PREMIER V25A2 GRAND CHAMP Buddy": "171670eb-4543-cba5-329f-0b948cac9844",
   "PREMIER V25A2 CHAMPION // OPN Buddy": "3b5c6665-467b-96e8-5e73-1ab63dd30898",
+  "PREMIER V25A3 CHAMPION // ADV Buddy": "b53e6d3d-4113-717b-3c7a-788e28e3fbe1",
+  "PREMIER V25A3 CHAMPION // CTD Buddy": "5fb6581d-45f7-e671-0a76-abaa26aa8c4f",
+  "PREMIER V25A3 CHAMPION // ELT Buddy": "23abf309-410d-a86d-b14e-bc9d49631a0f",
+  "PREMIER V25A3 CHAMPION // INT Buddy": "85a52d1b-43f4-1445-af47-5cbf3da9cc79",
+  "PREMIER V25A3 GRAND CHAMP Buddy": "fd190a8c-4be4-bdce-052d-5aa7073ee36f",
+  "PREMIER V25A3 CHAMPION // OPN Buddy": "c366e5ea-4110-6427-bdf1-61a245589e89",
   "Pay Respects Buddy": "839c6e7d-4821-157b-fd38-71b3debc874f",
   "One Direction Buddy": "ce82d434-477f-43a3-963b-95b6657c46b6",
   "Twisted Treat Buddy ": "516057a3-4e34-98a0-7265-938acb511f41",
@@ -500,6 +511,15 @@ export const buddyIdMappedByName: BuddyIdMappedByName = {
   "EP9: Platinum Buddy": "757829fd-4d56-c9f0-dcbb-9b8d1eb23acf",
   "EP9: Radiant Buddy": "a149bc8b-429f-2662-0224-0bb999f0e42a",
   "EP9: Silver Buddy": "69d2917c-4138-1d9f-552a-b288190f7723",
+  "V25A3: Ascendant Buddy": "de08ae9e-4405-7bc0-eb14-d3a9f2822f8f",
+  "V25A3: Bronze Buddy": "dc34e72d-48d0-40ce-53a6-a1be42b534ab",
+  "V25A3: Diamond Buddy": "bc75ba3e-4393-1f2b-1c01-3fb47edf1f5b",
+  "V25A3: Gold Buddy": "d74c34ed-4e90-224b-bf6e-dba9d0fea145",
+  "V25A3: Immortal Buddy": "51bd423a-4eff-23c3-1340-7d92d237b3af",
+  "V25A3: Iron Buddy": "566aee55-4146-8309-45b6-67b76b5880e5",
+  "V25A3: Platinum Buddy": "99470112-48a2-1ec9-393f-d38a44622cfc",
+  "V25A3: Radiant Buddy": "7ba2dd21-44c1-163b-162d-6099a3412726",
+  "V25A3: Silver Buddy": "4dcaa253-4c2c-56f9-9ab1-4f82b06ca110",
   "Gravitational Uranium Neuroblaster Buddy": "90356707-45e1-5d0b-2b34-2d9aadf78b4e",
   "Laser Blaster Buddy": "72973c4b-4ef3-c9c8-06c8-54a350beeae8",
   "Slay Ride Buddy": "759b4a69-4742-cdf9-4211-4c867cdcabd7",
@@ -881,14 +901,26 @@ export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
   "Champions 2024 Buddy": {
     "1": "6d3a301e-4a79-105d-7a25-32bc5f921950"
   },
+  "VALORANT GO! Vol. 3 Chamber Buddy": {
+    "1": "70ffd66a-466d-b100-302b-18a60877c2f2"
+  },
   "VALORANT GO! Vol. 1 Cypher Buddy": {
     "1": "c8b53af9-4e6d-5599-f516-43a22c1048ab"
+  },
+  "VALORANT GO! Vol. 3 Gekko Buddy": {
+    "1": "9e4680ec-49da-2a02-cd8d-f2a41a81d422"
+  },
+  "VALORANT GO! Vol. 3 Iso Buddy": {
+    "1": "e3a5a8b2-41b7-d148-c0e4-3e854331501b"
   },
   "VALORANT GO! Vol. 1 Jett Buddy": {
     "1": "0af0c7ca-4fb7-0410-5cc6-a5834d340c53"
   },
   "VALORANT GO! Vol. 1 Killjoy Buddy": {
     "1": "b01739f3-4da9-0792-aa40-1094bc99e34d"
+  },
+  "VALORANT GO! Vol. 3 Omen Buddy": {
+    "1": "e7d7ba49-46fc-6dc8-f82b-139a9a5e0355"
   },
   "VALORANT GO! Vol. 2 Phoenix Buddy": {
     "1": "502d79b2-43c6-1245-29e2-9bbb37397e1c"
@@ -904,6 +936,9 @@ export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
   },
   "VALORANT GO! Vol. 2 Sova Buddy": {
     "1": "dc955846-4c78-55a4-bfda-47a89adc4394"
+  },
+  "VALORANT GO! Vol. 3 Tejo Buddy": {
+    "1": "cefcd57b-4c14-f74d-6222-be8987ce9fcb"
   },
   "VALORANT GO! Vol. 2 Viper Buddy": {
     "1": "3f81d486-41ee-f90b-a3a9-b0883c83b7c8"
@@ -1901,6 +1936,24 @@ export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
   "PREMIER V25A2 CHAMPION // OPN Buddy": {
     "1": "8a2ea876-4cc3-e4b4-ee48-95800960dfe9"
   },
+  "PREMIER V25A3 CHAMPION // ADV Buddy": {
+    "1": "b9165ca3-4298-0a89-d999-c4917f165b39"
+  },
+  "PREMIER V25A3 CHAMPION // CTD Buddy": {
+    "1": "dbcc6936-4c8d-c15e-0a8f-4ca3a6f8b089"
+  },
+  "PREMIER V25A3 CHAMPION // ELT Buddy": {
+    "1": "fafa6950-4eef-9300-6819-6fbf1e0b987c"
+  },
+  "PREMIER V25A3 CHAMPION // INT Buddy": {
+    "1": "b83a7eae-43ef-4b8b-ccbe-78b1e8d7fb30"
+  },
+  "PREMIER V25A3 GRAND CHAMP Buddy": {
+    "1": "f2a8bb5e-40e9-b4ed-5acc-8a8bb3487f21"
+  },
+  "PREMIER V25A3 CHAMPION // OPN Buddy": {
+    "1": "81756ed7-4976-f51a-7c18-628a259fb0a6"
+  },
   "Pay Respects Buddy": {
     "1": "56f98991-43f8-dcc8-189e-08b7ae6c42ad"
   },
@@ -2170,6 +2223,33 @@ export const buddyLevelIdMappedByName: BuddyLevelIdMappedByName = {
   },
   "EP9: Silver Buddy": {
     "1": "75b399cf-4a2f-7666-e514-359f94b644f1"
+  },
+  "V25A3: Ascendant Buddy": {
+    "1": "e9938219-400a-a7ed-9e64-1b8d4a4b2126"
+  },
+  "V25A3: Bronze Buddy": {
+    "1": "3f4973b1-4978-b52a-1a52-73b58c2525f0"
+  },
+  "V25A3: Diamond Buddy": {
+    "1": "2577f362-4046-fa0a-02da-0d970afd3479"
+  },
+  "V25A3: Gold Buddy": {
+    "1": "478152bc-47d9-2068-a408-05b0949eaf72"
+  },
+  "V25A3: Immortal Buddy": {
+    "1": "207d02d8-4642-b039-e3d4-6eb5a37e87d0"
+  },
+  "V25A3: Iron Buddy": {
+    "1": "ec70658f-44b1-3eb1-41ca-e4b5acaf48ed"
+  },
+  "V25A3: Platinum Buddy": {
+    "1": "82df7dc3-4753-681f-a932-629777cbc3a7"
+  },
+  "V25A3: Radiant Buddy": {
+    "1": "22be4075-4bf4-4000-beca-068ed21ca476"
+  },
+  "V25A3: Silver Buddy": {
+    "1": "8cfe7cc9-4888-8630-1d29-3496fc706ace"
   },
   "Gravitational Uranium Neuroblaster Buddy": {
     "1": "2484e328-45e9-a5c0-960f-ad8b0f620d0e"
