@@ -74,6 +74,7 @@ export const sprayIdMappedByName: SprayIdMappedByName = {
   "BoomShaka Spray": "32fc4bfd-4897-ce74-55d2-9bb008f0decb",
   "Bombshell Spray": "a64b8eda-4920-434a-5346-30bfb1b58e39",
   "Round Start Spray": "33f7b31f-4891-271e-e980-69bfedb5c147",
+  "Phaseguard Spray": "2bed629e-42e5-9f8a-0830-3ebf49e2adac",
   "Explorgi Spray": "25d82d17-4739-e206-e8aa-d1bd4fd4dae6",
   "Nocturnum Spray": "3398fb0d-48bc-ccfd-ce92-58b694650bb4",
   "Doombringer Spray": "fd3ca227-433a-63e9-1050-ca878b4182f1",
@@ -605,6 +606,21 @@ export const sprayIdMappedByName: SprayIdMappedByName = {
   "Refreshing! Spray": "ee30154d-4b5f-2973-35bb-23a8bd215180",
   "Wingman For The Win Spray": "89319db4-4304-669e-533b-5bba442e7263",
   "Vyse Approved Spray": "89ae319a-445d-b593-898f-3cbc237e4260",
+  "Space Piercer Spray": "c05151f1-453e-75bb-b192-42af77acd23d",
+  "ATLAS // CMD Spray": "b9b564e5-4b39-7772-96cf-65bc3a132a74",
+  "Smile, You're On Camera Spray": "5f2efb50-497b-5a06-bfd4-0b9e73ad8acd",
+  "Peace! Spray": "13a7b621-44cf-73a3-04bb-0fad33b93179",
+  "Crispy Shot Spray": "7e178f4d-42cd-a469-4c70-15af0bf61172",
+  "Nah Spray": "943338bd-4191-1946-63b0-41b293950394",
+  "Like Gekko Spray": "2b9b3dbf-4e0e-bd5e-9047-b68e95148f74",
+  "Safety Cove Spray": "a009d997-4b1f-7132-9737-44bf7c37789c",
+  "Perch Spray": "e6f27674-42ff-2018-d702-a3ae17690159",
+  "Make It Stop Spray": "e0f6b02d-4698-c63c-b52c-aeb8e1ffeb77",
+  "Zap Zap Spray": "e7d24d08-456c-96ee-d940-64a7ebe05006",
+  "Smooth Sailing Spray": "82cd3aa2-43cf-87c9-08c6-38ab03bbe785",
+  "Pengu Panic Spray": "37d9f509-4ef7-b7c4-2907-1f992be773ff",
+  "Surprise Portal Play Spray": "b349e73f-4220-850c-9027-f89c4a5b0b49",
+  "Warning: Viper Spray": "259c5d79-474a-0f7c-52b3-7785a142ec7a",
   "Sentinels of Light, Ep 7 Spray": "0736596a-4ec0-7330-1f74-44843b6d0663",
   "Salt Shaker Spray": "eece70be-4f84-facb-49b0-fe95290eff67",
   "Brimstone Spray": "be343d37-465e-1878-e6d0-9aba467d7cca",
@@ -955,6 +971,9 @@ export const sprayLevelIdMappedByName: SprayLevelIdMappedByName = {
   },
   "Round Start Spray": {
     "1": "c112ca05-4766-b7f1-af42-b5b2561074d2"
+  },
+  "Phaseguard Spray": {
+    "1": "194ac2e1-4a13-2e07-e4d1-71ae40c5f35a"
   },
   "Explorgi Spray": {
     "1": "1dc18b98-4993-5fab-304f-6eaba1b85c44"
@@ -2548,6 +2567,51 @@ export const sprayLevelIdMappedByName: SprayLevelIdMappedByName = {
   },
   "Vyse Approved Spray": {
     "1": "c40984a0-4c09-3670-8b63-49bd43a43cfb"
+  },
+  "Space Piercer Spray": {
+    "1": "9f22fa46-4f76-8e85-bdf2-2a9c4c082bcc"
+  },
+  "ATLAS // CMD Spray": {
+    "1": "2006a32c-4fc6-8de6-1bbf-d88df58b4494"
+  },
+  "Smile, You're On Camera Spray": {
+    "1": "20ebe8a7-4dbc-8e79-9c0d-56acd3b96576"
+  },
+  "Peace! Spray": {
+    "1": "9d3bf3c2-49e8-0daf-ecae-64a8c48b11e0"
+  },
+  "Crispy Shot Spray": {
+    "1": "9d84f2aa-4a86-a784-a4ce-5db103accdde"
+  },
+  "Nah Spray": {
+    "1": "16624ccb-4846-001f-8905-c2a1477fc894"
+  },
+  "Like Gekko Spray": {
+    "1": "663054a8-4bd6-0165-cd38-06a5de0b4fe3"
+  },
+  "Safety Cove Spray": {
+    "1": "48d2a30d-4e5e-545c-8921-779e8cf1f7ea"
+  },
+  "Perch Spray": {
+    "1": "292aa7fb-42df-576f-4f14-d7ade32be7b1"
+  },
+  "Make It Stop Spray": {
+    "1": "bb37a195-49d6-50c2-b4a9-2889d7a57981"
+  },
+  "Zap Zap Spray": {
+    "1": "c0513a9f-40c7-526a-414c-4d9d0cbfb74c"
+  },
+  "Smooth Sailing Spray": {
+    "1": "84afc8a8-4a67-92d1-7e93-e7b1f1bdebb5"
+  },
+  "Pengu Panic Spray": {
+    "1": "180b6d02-46eb-5361-6c8b-6f921e820361"
+  },
+  "Surprise Portal Play Spray": {
+    "1": "bc2d5a93-4e90-2ceb-80fa-2cb0e3f1a217"
+  },
+  "Warning: Viper Spray": {
+    "1": "d8a6d026-4f08-7334-fda2-4b9b731d5bf0"
   },
   "Sentinels of Light, Ep 7 Spray": {
     "1": "0fc083fe-4de9-32e1-3497-668563834d8f"
